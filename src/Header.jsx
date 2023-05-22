@@ -8,7 +8,7 @@ export default function Header() {
         <Menu />
       </div>
 
-      <h2>
+      <h2 className="bg-hero">
         IMMERSIVE EXPERIENCES THAT DELIVER
       </h2>
     </div>

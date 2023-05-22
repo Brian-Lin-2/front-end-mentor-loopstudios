@@ -21,7 +21,6 @@ export default {
         'from-above': "url('/images/mobile/image-from-above.jpg')",
         'image-grid': "url('/images/mobile/image-grid.jpg')",
         'hero': "url('/images/mobile/image-hero.jpg')",
-        'interactive': "url('/images/mobile/image-interactive.jpg')",
         'night-arcade': "url('/images/mobile/image-night-arcade.jpg')",
         'pocket-borealis': "url('/images/mobile/image-pocket-borealis.jpg')",
         'soccer-team': "url('/images/mobile/image-soccer-team.jpg')",
