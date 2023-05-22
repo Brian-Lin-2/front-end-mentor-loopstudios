@@ -1,7 +1,26 @@
-export default function Creation({ name, image }) {
-  const style = ' ' + image;
+import Card from './Card';
+
+export default function Creation() {
+  const creations = [
+    { name: 'DEEP EARTH',       image: 'bg-deep-earth' },
+    { name: 'NIGHT ARCADE',     image: 'bg-night-arcade' },
+    { name: 'SOCCER TEAM VR',   image: 'bg-soccer-team' },
+    { name: 'THE GRID',         image: 'bg-grid' },
+    { name: 'FROM UP ABOVE VR', image: 'bg-from-above' },
+    { name: 'POCKET BOREALIS',  image: 'bg-pocket-borealis' },
+    { name: 'THE CURIOSITY',    image: 'bg-curiosity' },
+    { name: 'MAKE IT FISHEYE', image: 'bg-fisheye' },
+  ]
 
   return (
-    <div className={style}>{name}</div>
+    <div className="tracking-wide flex flex-col items-center">
+      <h1 className="font-josefin-sans text-3xl">OUR CREATIONS</h1>
+
+      {creations.map(creation => {
+          return <Card key={crypto.randomUUID()} name={creation.name} image={creation.image} />
+      })}
+
+      <button className="border">SEE ALL</button>
+    </div>
   )
 }
