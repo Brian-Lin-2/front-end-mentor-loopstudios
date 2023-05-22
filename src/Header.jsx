@@ -4,12 +4,12 @@ export default function Header() {
   return (
     <div>
       <div>
-        <h1></h1>
+        <img className="bg-blue-500" src="/images/logo.svg" alt="loopstudios"/>
         <Menu />
       </div>
 
       <h2>
-
+        IMMERSIVE EXPERIENCES THAT DELIVER
       </h2>
     </div>
   )

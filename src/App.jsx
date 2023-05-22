@@ -4,6 +4,12 @@ import Creation from './Creation';
 import Footer from './Footer';
 
 export default function App() {
+  const creations = [
+    {
+      
+    }
+  ]
+
   return (
     <div>
       <Header />
