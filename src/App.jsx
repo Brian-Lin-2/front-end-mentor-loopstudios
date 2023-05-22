@@ -21,7 +21,7 @@ export default function App() {
       <Info />
 
       {creations.map(creation => {
-        return <Creation name={creation.name} image={creation.image} />
+        return <Creation key={crypto.randomUUID()} name={creation.name} image={creation.image} />
       })}
 
       <Footer />
