@@ -19,7 +19,7 @@ export default {
         'deep-earth': "url('/images/mobile/image-deep-earth.jpg')",
         'fisheye': "url('/images/mobile/image-fisheye.jpg')",
         'from-above': "url('/images/mobile/image-from-above.jpg')",
-        'image-grid': "url('/images/mobile/image-grid.jpg')",
+        'grid': "url('/images/mobile/image-grid.jpg')",
         'hero': "url('/images/mobile/image-hero.jpg')",
         'night-arcade': "url('/images/mobile/image-night-arcade.jpg')",
         'pocket-borealis': "url('/images/mobile/image-pocket-borealis.jpg')",
