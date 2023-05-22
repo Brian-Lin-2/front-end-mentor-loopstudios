@@ -24,7 +24,7 @@ export default {
         'night-arcade': "url('/images/mobile/image-night-arcade.jpg')",
         'pocket-borealis': "url('/images/mobile/image-pocket-borealis.jpg')",
         'soccer-team': "url('/images/mobile/image-soccer-team.jpg')",
-      }
+      },
     },
   },
   plugins: [],
