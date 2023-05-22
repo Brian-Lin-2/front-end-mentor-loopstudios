@@ -16,7 +16,7 @@ export default function App() {
   ]
 
   return (
-    <div className="w-96">
+    <div className="w-96 box-border">
       <Header />
       <Info />
 
