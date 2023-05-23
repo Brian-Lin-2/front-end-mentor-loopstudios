@@ -2,7 +2,7 @@ import Menu from './Menu';
 
 export default function Header() {
   return (
-    <div className="bg-hero bg-contain bg-no-repeat pb-60">
+    <div className="bg-hero-mobile bg-contain bg-no-repeat pb-60">
       <div className="flex justify-between items-center px-10 pt-12 pb-40">
         <img className="w-32" src="/images/logo.svg" alt="loopstudios"/>
         <Menu />

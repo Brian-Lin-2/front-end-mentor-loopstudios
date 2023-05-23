@@ -2,14 +2,14 @@ import Card from './Card';
 
 export default function Creation() {
   const creations = [
-    { name_1: 'DEEP', name_2: 'EARTH',     image: 'bg-deep-earth' },
-    { name_1: 'NIGHT', name_2: 'ARCADE',     image: 'bg-night-arcade' },
-    { name_1: 'SOCCER', name_2: 'TEAM VR',  image: 'bg-soccer-team' },
-    { name_1: 'THE', name_2: 'GRID',      image: 'bg-grid' },
-    { name_1: 'FROM UP', name_2: 'ABOVE VR', image: 'bg-from-above' },
-    { name_1: 'POCKET', name_2: 'BOREALIS',  image: 'bg-pocket-borealis' },
-    { name_1: 'THE', name_2: 'CURIOSITY',    image: 'bg-curiosity' },
-    { name_1: 'MAKE IT', name_2: ' FISHEYE', image: 'bg-fisheye' },
+    { name_1: 'DEEP',     name_2: 'EARTH',      image: 'bg-deep-earth-mobile' },
+    { name_1: 'NIGHT',    name_2: 'ARCADE',     image: 'bg-night-arcade-mobile' },
+    { name_1: 'SOCCER',   name_2: 'TEAM VR',    image: 'bg-soccer-team-mobile' },
+    { name_1: 'THE',      name_2: 'GRID',       image: 'bg-grid-mobile' },
+    { name_1: 'FROM UP',  name_2: 'ABOVE VR',   image: 'bg-from-above-mobile' },
+    { name_1: 'POCKET',   name_2: 'BOREALIS',   image: 'bg-pocket-borealis-mobile' },
+    { name_1: 'THE',      name_2: 'CURIOSITY',  image: 'bg-curiosity-mobile' },
+    { name_1: 'MAKE IT',  name_2: ' FISHEYE',   image: 'bg-fisheye-mobile' },
   ]
 
   return (
