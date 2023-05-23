@@ -17,16 +17,19 @@ export default {
       fontSize: {
         '15px': '15px',
       },
+      height: {
+        '26': '104px',
+      },
       backgroundImage: {
-        'curiosity': "url('/images/mobile/image-curiosity.jpg')",
-        'deep-earth': "url('/images/mobile/image-deep-earth.jpg')",
-        'fisheye': "url('/images/mobile/image-fisheye.jpg')",
-        'from-above': "url('/images/mobile/image-from-above.jpg')",
-        'grid': "url('/images/mobile/image-grid.jpg')",
-        'hero': "url('/images/mobile/image-hero.jpg')",
-        'night-arcade': "url('/images/mobile/image-night-arcade.jpg')",
-        'pocket-borealis': "url('/images/mobile/image-pocket-borealis.jpg')",
-        'soccer-team': "url('/images/mobile/image-soccer-team.jpg')",
+        'curiosity': "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/mobile/image-curiosity.jpg')",
+        'deep-earth': "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/mobile/image-deep-earth.jpg')",
+        'fisheye': "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/mobile/image-fisheye.jpg')",
+        'from-above': "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/mobile/image-from-above.jpg')",
+        'grid': "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/mobile/image-grid.jpg')",
+        'hero': "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/mobile/image-hero.jpg')",
+        'night-arcade': "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/mobile/image-night-arcade.jpg')",
+        'pocket-borealis': "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/mobile/image-pocket-borealis.jpg')",
+        'soccer-team': "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/mobile/image-soccer-team.jpg')",
       },
       letterSpacing: {
         'super-wide': '.4em',

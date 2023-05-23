@@ -2,14 +2,14 @@ import Card from './Card';
 
 export default function Creation() {
   const creations = [
-    { name: 'DEEP EARTH',       image: 'bg-deep-earth' },
-    { name: 'NIGHT ARCADE',     image: 'bg-night-arcade' },
-    { name: 'SOCCER TEAM VR',   image: 'bg-soccer-team' },
-    { name: 'THE GRID',         image: 'bg-grid' },
-    { name: 'FROM UP ABOVE VR', image: 'bg-from-above' },
-    { name: 'POCKET BOREALIS',  image: 'bg-pocket-borealis' },
-    { name: 'THE CURIOSITY',    image: 'bg-curiosity' },
-    { name: 'MAKE IT FISHEYE', image: 'bg-fisheye' },
+    { name_1: 'DEEP', name_2: 'EARTH',     image: 'bg-deep-earth' },
+    { name_1: 'NIGHT', name_2: 'ARCADE',     image: 'bg-night-arcade' },
+    { name_1: 'SOCCER', name_2: 'TEAM VR',  image: 'bg-soccer-team' },
+    { name_1: 'THE', name_2: 'GRID',      image: 'bg-grid' },
+    { name_1: 'FROM UP', name_2: 'ABOVE VR', image: 'bg-from-above' },
+    { name_1: 'POCKET', name_2: 'BOREALIS',  image: 'bg-pocket-borealis' },
+    { name_1: 'THE', name_2: 'CURIOSITY',    image: 'bg-curiosity' },
+    { name_1: 'MAKE IT', name_2: ' FISHEYE', image: 'bg-fisheye' },
   ]
 
   return (
@@ -17,7 +17,7 @@ export default function Creation() {
       <h1 className="font-josefin-sans text-3xl mb-12">OUR CREATIONS</h1>
 
       {creations.map(creation => {
-          return <Card key={crypto.randomUUID()} name={creation.name} image={creation.image} />
+          return <Card key={crypto.randomUUID()} name_1={creation.name_1} name_2={creation.name_2} image={creation.image} />
       })}
 
       <button className="border-2 border-black py-2 px-8 font-alata tracking-super-wide text-xs mt-2 mb-28">SEE ALL</button>
