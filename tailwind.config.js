@@ -19,6 +19,7 @@ export default {
       },
       height: {
         '26': '104px',
+        'desktop': '650px',
       },
       backgroundImage: {
         'hero-mobile': "url('/images/mobile/image-hero.jpg')",
@@ -30,7 +31,7 @@ export default {
         'night-arcade-mobile': "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/mobile/image-night-arcade.jpg')",
         'pocket-borealis-mobile': "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/mobile/image-pocket-borealis.jpg')",
         'soccer-team-mobile': "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/mobile/image-soccer-team.jpg')",
-        'hero-desktop': "url('/images/desktop/image-hero.jpg')",
+        'hero-desktop': "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/desktop/image-hero.jpg')",
         'curiosity-desktop': "linear-gradient(to top, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/desktop/image-curiosity.jpg')",
         'deep-earth-desktop': "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/desktop/image-deep-earth.jpg')",
         'fisheye-desktop': "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/desktop/image-fisheye.jpg')",
@@ -42,7 +43,7 @@ export default {
       },
       letterSpacing: {
         'super-wide': '.4em',
-      }
+      },
     },
   },
   plugins: [],

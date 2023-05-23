@@ -1,5 +1,5 @@
 export default function Card({ name_1, name_2, image }) {
-  const style = 'w-3/4 h-26 text-white bg-contain bg-no-repeat mb-5 ' + image;
+  const style = 'w-3/4 h-26 text-white bg-cover bg-no-repeat mb-5 ' + image;
 
   return (
     <>

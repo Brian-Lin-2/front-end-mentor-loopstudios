@@ -6,7 +6,7 @@ import Footer from './Footer';
 export default function App() {
 
   return (
-    <div className="w-96">
+    <div>
       <Header />
       <Info />
       <Creation />
