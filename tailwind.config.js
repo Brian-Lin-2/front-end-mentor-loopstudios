@@ -14,6 +14,9 @@ export default {
         'alata': ['Alata', 'sans-serif'],
         'josefin-sans': ['Josefin Sans', 'sans-serif'],
       },
+      fontSize: {
+        '15px': '15px',
+      },
       backgroundImage: {
         'curiosity': "url('/images/mobile/image-curiosity.jpg')",
         'deep-earth': "url('/images/mobile/image-deep-earth.jpg')",
@@ -25,6 +28,9 @@ export default {
         'pocket-borealis': "url('/images/mobile/image-pocket-borealis.jpg')",
         'soccer-team': "url('/images/mobile/image-soccer-team.jpg')",
       },
+      letterSpacing: {
+        'super-wide': '.4em',
+      }
     },
   },
   plugins: [],

@@ -14,13 +14,13 @@ export default function Creation() {
 
   return (
     <div className="tracking-wide flex flex-col items-center">
-      <h1 className="font-josefin-sans text-3xl">OUR CREATIONS</h1>
+      <h1 className="font-josefin-sans text-3xl mb-12">OUR CREATIONS</h1>
 
       {creations.map(creation => {
           return <Card key={crypto.randomUUID()} name={creation.name} image={creation.image} />
       })}
 
-      <button className="border">SEE ALL</button>
+      <button className="border-2 border-black py-2 px-8 font-alata tracking-super-wide text-15px mt-2 mb-28">SEE ALL</button>
     </div>
   )
 }

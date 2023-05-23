@@ -6,7 +6,7 @@ import Footer from './Footer';
 export default function App() {
 
   return (
-    <div className="w-96 box-border">
+    <div className="w-96">
       <Header />
       <Info />
       <Creation />
