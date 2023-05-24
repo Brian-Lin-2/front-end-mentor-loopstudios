@@ -1,17 +1,18 @@
-import MenuItem from './MenuItem';
+import MenuItems from './MenuItems';
+import Menu from './Menu';
 
 export default function Header() {
-  const items = ['About', 'Careers', 'Events', 'Products', "Support"]
 
   return (
     <div className="bg-hero-mobile bg-cover bg-no-repeat pb-60 lg:h-desktop lg:bg-hero-desktop">
       <div className="flex justify-between items-center mx-10 pt-12 mb-40 lg:pt-16 lg:mx-44 lg:mb-32">
-        
+
         <img className="w-32" src="/images/logo.svg" alt="loopstudios"/>
-        <img className="w-5 lg:hidden" src="/images/icon-hamburger.svg" alt="" />
+        
+        <Menu />
 
         <div className="hidden lg:flex lg:gap-6 lg:text-white lg:text-15px">
-          {items.map(item => <MenuItem key={crypto.randomUUID()} item={item} />)}
+          <MenuItems />
         </div>
       </div>
 
