@@ -25,7 +25,7 @@ export default function Creation() {
         })}
       </div>
 
-      <button className="border-2 border-black py-2 px-8 font-alata tracking-super-wide text-xs mt-10 mb-2 lg:hidden">SEE ALL</button>
+      <button className="border-2 border-black py-2 px-8 font-alata tracking-super-wide text-xs mt-10 mb-2 hover:bg-black hover:text-white lg:hidden">SEE ALL</button>
     </div>
   )
 }
