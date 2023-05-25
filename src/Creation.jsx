@@ -9,7 +9,7 @@ export default function Creation() {
     { name_1: 'FROM UP',  name_2: 'ABOVE VR',   image: 'bg-from-above-mobile lg:bg-from-above-desktop' },
     { name_1: 'POCKET',   name_2: 'BOREALIS',   image: 'bg-pocket-borealis-mobile lg:bg-pocket-borealis-desktop' },
     { name_1: 'THE',      name_2: 'CURIOSITY',  image: 'bg-curiosity-mobile lg:bg-curiosity-desktop' },
-    { name_1: 'MAKE IT',  name_2: ' FISHEYE',   image: 'bg-fisheye-mobile lg:bg-fisheye-desktop' },
+    { name_1: 'MAKE IT',  name_2: 'FISHEYE',    image: 'bg-fisheye-mobile lg:bg-fisheye-desktop' },
   ]
 
   return (
