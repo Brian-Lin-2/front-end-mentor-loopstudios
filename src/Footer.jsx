@@ -15,10 +15,10 @@ export default function Footer() {
 
       <div>
         <a className="flex gap-4 mt-4 justify-center hover:cursor-pointer lg:m-0 lg:mb-6 lg:justify-end">
-          <img src="/images/icon-facebook.svg" />
-          <img src="/images/icon-twitter.svg" />
-          <img src="/images/icon-pinterest.svg" />
-          <img src="/images/icon-instagram.svg" />
+          <img src="/images/icon-facebook.svg" alt="" />
+          <img src="/images/icon-twitter.svg" alt="" />
+          <img src="/images/icon-pinterest.svg" alt="" />
+          <img src="/images/icon-instagram.svg" alt="" />
         </a>
 
         <footer className="text-dark-gray mt-4 mb-16 lg:m-0">© 2021 Loopstudios. All rights reserved.</footer>
