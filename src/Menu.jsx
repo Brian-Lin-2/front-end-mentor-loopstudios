@@ -1,7 +1,8 @@
-import MenuItems from './MenuItems';
+import MenuItem from './MenuItem';
 import { useState } from 'react';
 
 export default function Menu() {
+  const items = ['About', 'Careers', 'Events', 'Products', "Support"];
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
@@ -23,7 +24,7 @@ export default function Menu() {
           </div> 
         
           <div className="w-5/12 flex flex-col items-start gap-6 mx-6 mt-48 text-2xl font-josefin-sans uppercase">
-            <MenuItems />
+            {items.map(item => <MenuItem key={crypto.randomUUID()} item={item} />)}
           </div>
         </div>
       }

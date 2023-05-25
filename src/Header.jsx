@@ -1,7 +1,8 @@
-import MenuItems from './MenuItems';
+import MenuItem from './MenuItem';
 import Menu from './Menu';
 
 export default function Header() {
+  const items = ['About', 'Careers', 'Events', 'Products', "Support"];
 
   return (
     <div className="bg-hero-mobile bg-cover bg-no-repeat pb-60 lg:h-desktop lg:bg-hero-desktop">
@@ -13,7 +14,7 @@ export default function Header() {
         <Menu />
 
         <div className="hidden lg:flex lg:gap-6 lg:text-white lg:text-15px">
-          <MenuItems />
+          {items.map(item => <MenuItem item={item} />)}
         </div>
       </div>
 
