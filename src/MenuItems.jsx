@@ -4,10 +4,10 @@ export default function MenuItems() {
   const [active, setActive] = useState(false);
   const items = ['About', 'Careers', 'Events', 'Products', "Support"];
 
-  let menuBar = "invisible border-t-2 w-1/3 mt-1";
+  let menuBar = "lg:invisible lg:border-t-2 lg:w-1/3 lg:mt-1";
 
   if (active) {
-    menuBar = "border-t-2 w-1/3 mt-1"
+    menuBar = "lg:border-t-2 lg:w-1/3 lg:mt-1"
   }
 
   return (
