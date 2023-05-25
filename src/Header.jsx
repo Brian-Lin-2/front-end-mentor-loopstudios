@@ -14,7 +14,7 @@ export default function Header() {
         <Menu />
 
         <div className="hidden lg:flex lg:gap-6 lg:text-white lg:text-15px">
-          {items.map(item => <MenuItem item={item} />)}
+          {items.map(item => <MenuItem key={crypto.randomUUID()} item={item} />)}
         </div>
       </div>
 
